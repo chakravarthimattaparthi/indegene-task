@@ -1,27 +1,18 @@
-# Client
+Employee CRUD operations
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+Requirements:
+•	Node
+•	Angular
+•	MongoDB
 
-## Development server
+Setup Project:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1.	Extract zip file
+2.	To install dependencies go to project root folder in terminal and run npm install command
+3.	Start mongoDB server
 
-## Code scaffolding
+Run application:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+	To Start node server go to the project root folder in terminal and run node server.js (You can see Server is running at 3030 in console)
+	To Start client go to the project root folder in terminal and run ng serve –open (Once it’s done it will automatically open in browser)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
